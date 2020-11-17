@@ -51,7 +51,8 @@ def set_documents(collection_name, file_path):
     # Change 'Nort-west' to the name of the sheet in your excel work book
     # TODO: if you like advanture, and know your way around, 
     # you can modify this code block to loop over all sheets and aggregate the data
-    sheet = work_book.sheet_by_name('North-West')
+    sheet_name = 'North-West'
+    sheet = work_book.sheet_by_name(sheet_name)
     sheet.cell_value(0, 0)
 
     for i in range(sheet.nrows):
