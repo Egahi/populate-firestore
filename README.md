@@ -18,7 +18,7 @@ Publish multiple documents with data from an excel file to firestore
   `sheet_name = 'sheet1'` <br>
 _where 'sheet1' is the name of your sheet_
 
-5. Prepare your data (instructions below)
+5. Prepare your data. [Instructions below](https://github.com/Egahi/populate-firestore/blob/main/README.md#preparing-your-data)
 6. In main.py, on line 105, modify the file_path to the location of your excel workbook, it's name included in the path. I.e <br>
   `file_path = 'path/inner-path/your_file.xlsx'` <br>
 _where 'path/inner-path/your_file.xlsx' is the path to your file_
