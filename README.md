@@ -38,6 +38,7 @@ _where 'Jigawa' is the state in question_
 **Do NOT MERGE ANY CELLS**
 2. Each column **MUST** have header
 3. Captitalize the first letter of each column header to be consistent with other entries
+4. Delete any blank rows
 
 | State | Location | Latitude | Longitude |
 | ----- | -------- | -------- | --------- |
