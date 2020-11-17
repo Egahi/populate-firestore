@@ -3,13 +3,13 @@ Publish multiple documents with data from an excel file to firestore
 
 
 # Installation
-1. Clone this repository locally
+1. [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository locally
 2. Open a terminal, navigate to the root folder of this repository and run this command to install all packages <br>
   `pip install -r requirements.txt`
 
 
 # Usage
-1. [Generate](https://firebase.google.com/docs/admin/setup#initialize-sdk) a private key file for your service account from firebase.
+1. [Generate](https://firebase.google.com/docs/admin/setup#initialize-sdk) a private key file for your [service account](https://console.firebase.google.com/project/_/settings/serviceaccounts/adminsdk) from firebase.
 2. Rename the file to 'firebasekey' without the quotes
 3. Copy the file the root folder of this repository
 
