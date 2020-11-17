@@ -66,7 +66,7 @@ def set_documents(collection_name, file_path):
             for i in range(len(row_value) - 2):
                 obj[headers[i]] = row_value[i]
 
-            obj['Coordinates'] = firestore.GeoPoint(row_value[2], row_value[3])
+            obj['Coordinates'] = firestore.GeoPoint(row_value[-2], row_value[-1])
 
             data.append(obj)
             print(obj)
