@@ -47,4 +47,4 @@ _where 'Jigawa' is the state in question_
 
 _ps: You can add other columns at the start or in between but **Latitude and Longitude (in that order) MUST be the last two columns**"_
 
-Just in case you missed it, **UNMERGE AND MERGE CELLS**
+Just in case you missed it, **UNMERGE ANY MERGED CELLS**
